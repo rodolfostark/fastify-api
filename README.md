@@ -3,12 +3,12 @@
 
 ## Tech Stack
 
-<div>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="30" alt="typescript logo"/>          
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-plain-wordmark.svg" height="30" alt="fastify logo" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" height="30" alt="sqlite logo"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/knexjs/knexjs-original.svg" height="30" alt="knex logo"/>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitest/vitest-original.svg" height="30" alt="vitest logo"/>
+<div style="display: flex;justify-content: space-between;padding-left: 60px;padding-right: 60px;">
+<img style=""src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" height="50" alt="typescript logo"/>          
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastify/fastify-plain.svg" height="50" alt="fastify logo" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-plain.svg" height="50" alt="sqlite logo"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/knexjs/knexjs-original.svg" height="50" alt="knex logo"/>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitest/vitest-original.svg" height="50" alt="vitest logo"/>
 </div>
 
 
