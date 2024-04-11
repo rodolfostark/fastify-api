@@ -2,7 +2,6 @@ import { afterAll, beforeAll, describe, it, expect } from 'vitest'
 import request from 'supertest'
 
 import { app } from '../src/app'
-import { string } from 'zod'
 
 describe('Transatcions routes', () => {
   beforeAll(async () => {
