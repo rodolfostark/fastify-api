@@ -1,7 +1,8 @@
-import { afterAll, beforeAll, test, describe, it } from 'vitest'
+import { afterAll, beforeAll, describe, it, expect } from 'vitest'
 import request from 'supertest'
 
 import { app } from '../src/app'
+import { string } from 'zod'
 
 describe('Transatcions routes', () => {
   beforeAll(async () => {
@@ -32,9 +33,16 @@ describe('Transatcions routes', () => {
         type: 'credit',
       })
     const cookies = createTransactionResponse.get('Set-Cookie')
-    await request(app.server)
+    const listTransactionsResponse = await request(app.server)
       .get('/transactions')
       .set('Cookie', cookies)
       .expect(200)
+
+    expect(listTransactionsResponse.body.transactions).toEqual([
+      expect.objectContaining({
+        title: 'New transaction',
+        amount: 5000,
+      }),
+    ])
   })
 })
