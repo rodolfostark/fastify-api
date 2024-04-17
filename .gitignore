@@ -131,5 +131,4 @@ dist
 .pnp.*
 
 # Database
-db/app.db
-db/test.db
+db/*.db
